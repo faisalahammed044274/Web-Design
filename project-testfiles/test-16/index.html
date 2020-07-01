@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Four</title>
+  </head>
+  <body>
+    <table
+      border="1px"
+      style="border-collapse: collapse;"
+      width="700px"
+      align="center"
+    >
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone Number</th>
+        <th>Email Address</th>
+        <th>Salary</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>Faisal</td>
+        <td>Ahammed</td>
+        <td>01712942233</td>
+        <td>faisalahammed13@gmail.com</td>
+        <td>45000</td>
+        <td>South Badda, Dhaka</td>
+      </tr>
+    </table>
+    <script>
+      // var data = [10, 20, 30, "Rahim", "Karim"];
+
+      var data = [
+        {
+          first_name: "Faisal",
+          last_name: "Ahammed",
+          phone_number: "01712942233",
+          email_address: "faisalahammed13@gmail.com",
+          salary: "45000",
+          address: "Southbadda, Dhaka",
+        },
+        {
+          first_name: "Faisal",
+          last_name: "Ahammed",
+          phone_number: "01712942233",
+          email_address: "faisalahammed13@gmail.com",
+          salary: "45000",
+          address: "Southbadda, Dhaka",
+        },
+        {
+          first_name: "Musfiqur",
+          last_name: "Rahaman",
+          phone_number: "0171111111",
+          email_address: "musfiqurrahaman7@gmail.com",
+          salary: "45000",
+          address: "Dhanmondi, Dhaka",
+        },
+        {
+          first_name: "Rasel",
+          last_name: "Ahammed",
+          phone_number: "0171111111",
+          email_address: "rasel54@gmail.com",
+          salary: "45000",
+          address: "badda, Dhaka",
+        },
+        {
+          first_name: "Setu",
+          last_name: "Ahammed",
+          phone_number: "01718888888",
+          email_address: "setu13@gmail.com",
+          salary: "45000",
+          address: "badda, Dhaka",
+        },
+        {
+          first_name: "Tanvir",
+          last_name: "Ahammed",
+          phone_number: "017166666666",
+          email_address: "tanvir13@gmail.com",
+          salary: "45000",
+          address: "Dhanmondi, Dhaka",
+        },
+        {
+          first_name: "Fahad",
+          last_name: "Ahammed",
+          phone_number: "01713333333",
+          email_address: "fahad13@gmail.com",
+          salary: "45000",
+          address: "Joypurhat",
+        },
+      ];
+
+      // function setu() {
+      //   var x = 10;
+      //   var y = 20;
+      //   var z = x+y;
+      //   document.write(z);
+      // }
+
+      function setu(x, y) {
+        var z = x + y;
+        // document.write(z);
+        return z;
+      }
+      document.write("<br/>=============<br/>");
+      document.write(setu(19, 15));
+      document.write("<br/>=============<br/>");
+      document.write(setu(7, 2));
+      document.write("<br/>=============<br/>");
+      document.write(setu(150, 120));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Three</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+        <h1 class="heading">This is a heading one.</h1>
+        <h1 class="heading">This is a heading two.</h1>
+        <h1 id="h1">This is a heading three.</h1>
+        
+
+        <p class="para">This is para one.</p>
+        <p class="para">This is para two.</p>
+        <p class="para">This is para three.</p>
+        <p id="p1">This is para four.</p>
+
+
+
+    <script>
+        // var headingTags = document.getElementsByTagName("p");
+        // alert(headingTags[3].innerHTML);
+
+        var headingTags = document.getElementsByClassName("para");
+        alert(headingTags.length);
+
+        // var h1 = document.getElementById("h1");
+        // alert(h1.innerHTML);
+
+
+
+
+      /*---------------------------------------
+              Example : Conditional operator
+              (>, >=, <, <=, ==, !=, ===, !==)
+        ----------------------------------------*/
+      // var x = 105;
+      // var y = 100;
+      // document.write (x > y);
+      // document.write ("<br/>");
+      // document.write (x >= y);
+      // document.write ("<br/>");
+      // document.write (x == y);
+      // document.write ("<br/>");
+      // document.write (x < y);
+      // document.write ("<br/>");
+      // document.write (x <= y);
+      // document.write ("<br/>");
+      // document.write (x>-y);    -----------++++++
+      // document.write ("<br/>"); -----------++++++
+      // document.write (x<-y);    -----------++++++
+      // document.write ("<br/>"); -----------++++++
+      // document.write (x===y);
+      // document.write ("<br/>");
+      // document.write (x!=y);
+      // document.write ("<br/>");
+      // document.write (x---y);
+      // document.write ("<br/>");
+
+      /*--------------------------------------
+              Example :    Logical operator
+                      (&&, ||, !)
+          --------------------------------------*/
+
+      // && logical and  , || logical or
+      // var x = 10;
+      // var y = 20;
+      // var z = 30;
+
+      // document.write ( (x<y) && (y<z) ); //trur must both true
+
+      // document.write ( (x>y) && (y>z) ); // false any false it will be a false condition
+
+      // document.write ( (x>y) || (y<z) ); //trur must both true
+
+      // ! logical not
+      // var x = false;
+      // document.write(!x);
+
+      /*-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                  *single line
+                  *Conditional Statement (if, if else, if esle if , switch)
+                  *Repeated Statement (for, while, do while, for in)
+          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@---*/
+
+      /*----------------------------------
+          Example : if & else
+      ------------------------------------*/
+      // var x=10;
+      // if (x>20) {
+      //     document.write(x);
+      // } else {
+      //     document.write("Hello world")
+      // }
+
+      /*----------------------------------
+         Example : if else if
+      ------------------------------------*/
+
+      //   var x = 10;
+      //   var y = 20;
+      //   var z = 30;
+
+      //   if (x > y) {
+      //     document.write("Hello world");
+      //   } else if (y > z) {
+      //     document.write("Hello Bangladesh");
+      //   } else if (z < x) {
+      //     document.write("Hello Dhaka");
+      //   } else {
+      //     document.write("Hello Badda");
+      //   }
+
+      /*----------------------------------
+         Example : Switch
+      ------------------------------------*/
+
+      // var x = 10;
+      // switch(x) {
+      //       case 10:
+      //         document.write("hello world")
+      //       break;
+      //      case 20:
+      // document.write("hello bangladesh")
+      //       break;
+      //       case 30:
+      //           document.write("Hello Dhaka")
+      //       break;
+      //       default:
+      //           document.write("Hello Niketon")
+
+      /*-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                 Repeated Statement
+                  for, while, do while, for in = work for arrey
+          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@---*/
+
+      /*---------------------------------------------
+      Example : For loop
+
+      // Conditon true na hole print korbe na
+      // Anti clock wise kaj kore
+      ---------------------------------------------*/
+
+      // var x;
+
+      // for (var x = 55; x < 79; x += 10) {
+      //   document.write(x + "<br/>");
+
+      /*---------------------------------------------
+      Example : While loop
+      
+      // false hole read kore na true hole kore
+      ---------------------------------------------*/
+
+      // var x = 20;
+      // while (x>11) {
+      //   document.write(x+ "<br/>")
+      //   x-=2;
+
+      /*---------------------------------------------
+      Example : Do While loop  
+    ---------------------------------------------*/
+      // var x=5;
+      // do {
+      //   document.write(x+ "<br/>")
+      //   x+=3;
+      // } while (x<=20);
+
+      /*---------------------------------------------
+      Example : For in = (Array) 
+
+      Array..........
+  ---------------------------------------------*/
+      // var x;
+      // var x = 20;
+      // document.write(x);
+
+      //var data = new Array();
+      // var data = Array();
+      //   var data = [];
+
+      // data[0] = 10;
+      // data[1] = 20;
+      // data[2] = 30;
+      // data["name"] = "Faisal Ahammed";
+      // data["city"] = "South Badda, Dhaka";
+
+
+      // var data = [10, 20, 30, "Faisal", "D haka"]
+
+      // document.write(data.length);
+
+      // var s;
+      // // for (var b in data) 
+      // for (s in data) {
+      //   document.write(data[s] + "<br/>");
+      // }
+
+
+
+    </script>
+  </body>
+</html>

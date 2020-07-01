@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>First Name</th>
+        <td><input type="text" id="firstName" placeholder="First Name" /></td>
+      </tr>
+      <tr>
+        <th>Last Name</th>
+        <td><input type="text" id="lastName" placeholder="Last Name" /></td>
+      </tr>
+      <tr>
+        <th>Full Name</th>
+        <td><input type="text" id="fullName" /></td>
+      </tr>
+      <tr>
+        <th></th>
+        <td>
+          <input type="button" value="submit" id="btn" />
+        </td>
+      </tr>
+    </table>
+
+    <script>
+      var btnElement = document.getElementById("btn");
+      btnElement.onclick = function () {
+        var firstName = document.getElementById("firstName").value;
+        var lastName = document.getElementById("lastName").value;
+        makeFullName(firstName, lastName);
+      };
+
+      function makeFullName(firstName, lastName) {
+        var fullName = firstName + " " + lastName;
+        //document.write(fullName);
+        document.getElementById("fullName").value =fullName;
+      }
+    </script>
+  </body>
+</html>

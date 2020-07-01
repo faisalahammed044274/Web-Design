@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Form Design/Input Group</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                First Name
+              </span>
+            </div>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                Last Name
+              </span>
+            </div>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="input-group mb-2">
+            <input type="text" class="form-control" />
+            <div class="input-group-append">
+              <span class="input-group-text">
+                Search
+              </span>
+            </div>
+          </div>
+          <div class="input-group mb-2">
+            <input type="text" class="form-control" />
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-primary">Hello</button>
+            </div>
+          </div>
+          <div class="input-group mb-2">
+            <input type="text" class="form-control" />
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-primary">Ok</button>
+              <button type="submit" class="btn btn-danger">Cancel</button>
+            </div>
+          </div>
+          <div class="input-group mb-2">
+            <input type="text" class="form-control" />
+            <input type="text" class="form-control" />
+            <div class="input-group-append">
+              <span class="input-group-text">First Name</span>
+              <span class="input-group-text">Last Name</span>
+            </div>
+          </div>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <span class="input-group-text">First Name</span>
+              <span class="input-group-text">Last Name</span>
+            </div>
+            <input type="text" class="form-control" />
+            <input type="text" class="form-control" />
+          </div>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Phone</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Mobile Number"/>
+            <input type="text" class="form-control" placeholder="Land Phone"/>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <div class="row">
+        <div class="col-md-12">
+          <form class="form-inline">
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                class="form-control ml-2"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                name="password"
+                class="form-control ml-2"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="button"
+                name="btn"
+                class="btn btn-success ml-2"
+                value="login"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-12">
+          <form class="form-inline">
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" name="email" class="form-control ml-2" />
+            </div>
+            <div class="form-group">
+              <label class="ml-2">Password</label>
+              <input
+                type="password"
+                name="password"
+                class="form-control ml-2"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="button"
+                name="btn"
+                class="btn btn-success ml-2"
+                value="login"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <br />
+      <div class="row">
+        <div class="col-md-6" style="background-color: rgb(170, 200, 212);">
+          <br />
+          <div class="form-group row">
+            <label for="firstName" class="col-md-3 col-form-label"
+              >First Name</label
+            >
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="firstName" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="lastName" class="col-md-3 col-form-label"
+              >Last Name</label
+            >
+            <div class="col-md-9">
+              <input type="text" class="form-control" id="lastName" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="emailAddress" class="col-md-3 col-form-label"
+              >Email Address</label
+            >
+            <div class="col-md-9">
+              <input type="email" class="form-control" id="emailAddress" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="password" class="col-md-3 col-form-label"
+              >Password</label
+            >
+            <div class="col-md-9">
+              <input type="password" class="form-control" id="password" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="phoneNumber" class="col-md-3 col-form-label"
+              >Phone Number</label
+            >
+            <div class="col-md-9">
+              <input type="number" class="form-control" id="phoneNumber" />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="address" class="col-md-3 col-form-label">Address</label>
+            <div class="col-md-9">
+              <textarea id="address" class="form-control"></textarea>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="gender" class="col-md-3 col-form-label">Gender</label>
+            <div class="col-md-9">
+              <input
+                type="radio"
+                name="gender"
+                id="gender"
+                value="male"
+                class="form-check-label"
+              />
+              Male
+              <input
+                type="radio"
+                name="gender"
+                id="gender"
+                value="female"
+                class="form-check-label"
+              />
+              Female
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="districtName" class="col-md-3 col-form-label">
+              District</label
+            >
+            <div class="col-md-9">
+              <select name="" id="districtName" class="form-control">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Joypurhat">Joypurhat</option>
+                <option value="Naogoan">Naogoan</option>
+                <option value="Bogra">Bogra</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Rangpur">Rangpur</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="image" class="col-md-3 col-form-label"
+              >Upload mage</label
+            >
+            <div class="col-md-9">
+              <input type="file" class="form-control-file" accept="image/*" />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="dob" class="col-md-3 col-form-label"
+              >Date of birth</label
+            >
+            <div class="col-md-9">
+              <input type="date" id="dob" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="reg" class="col-md-3 col-form-label"></label>
+            <div class="col-md-9">
+              <input type="checkbox" name="agree" value="1" id="reg" /> I agree
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="regBtn" class="col-md-3 col-form-label"></label>
+            <input
+              type="button"
+              name="agree"
+              value="Registration"
+              class="btn btn-primary btn-block"
+            />
+          </div>
+        </div>
+
+        <br />
+
+        <div class="col-md-6" style="background-color: sandybrown;">
+          <!-- in class m-auto for middle position -->
+          <br />
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" />
+          </div>
+          <div class="form-group">
+            <label for="emailAddress">Email Address</label>
+            <input type="email" class="form-control" id="emailAddress" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="number" class="form-control" id="phoneNumber" />
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="address"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="genderInfo">Gender Info</label>
+            <div>
+              <input
+                type="radio"
+                name="gender"
+                id="genderInfo"
+                value="male"
+                class="form-check-label"
+              />Male
+              <input
+                type="radio"
+                name="gender"
+                id="genderInfo"
+                value="female"
+                class="form-check-label"
+              />Female
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="districtName">District Name </label>
+            <select name="" id="districtName" class="form-control">
+              <option value="Dhaka">Dhaka</option>
+              <option value="Joypurhat">Joypurhat</option>
+              <option value="Naogoan">Naogoan</option>
+              <option value="Bogra">Bogra</option>
+              <option value="Tangail">Tangail</option>
+              <option value="Sirajgonj">Sirajgonj</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Image</label>
+            <input type="file" class="form-control-file" accept="image/*" />
+          </div>
+          <div class="form-group">
+            <label>Date of Birth</label>
+            <input type="date" class="form-control" />
+          </div>
+          <div class="form-group">
+            <input
+              type="submit"
+              class="btn btn-success btn-block"
+              value="Register"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

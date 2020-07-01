@@ -1,0 +1,33 @@
+.div-one{
+    margin: 8px;
+    float: left;
+    height: 300px;
+    width: 25%;
+    background-color: #F44336;
+}
+.div-two{
+    margin: 30px;
+    padding: 30px;
+    float: left;
+    height: 300px;
+    width: 65%;
+    background-color: #E91E63;
+}
+.div-three{
+    height: 50px;
+    width: 100%;
+    background-color: #9C27B0;
+    float: right;
+}
+.div-four{
+    height: 600px;
+    width: 100%;
+    background-color: #2196F3;
+    float: left;
+}
+.div-five{
+    height: 50px;
+    width: 100%;
+    background-color: #607D8B;
+    float: left;
+}

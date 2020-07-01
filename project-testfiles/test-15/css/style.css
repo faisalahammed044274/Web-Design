@@ -1,0 +1,9 @@
+if (x>y) {
+    document.write("Hello world");
+} else if (y>z) {
+    document.write("Hello Bangladesh")
+} else if (z>x) {
+    docunement.write("Hello Dhaka")
+} else {
+    document.write("Hello Badda")
+}

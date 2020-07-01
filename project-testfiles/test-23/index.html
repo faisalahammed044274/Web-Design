@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-3 header-height">
+          Header is the first part of web page.
+        </div>
+        <div class="col-9 header-height">
+          Here is the second part of a web page.
+        </div>
+      </div>
+      <div class="row">
+        <div id="menu" class="col-12 menu-height">
+          <ul id="menuUl">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Service Areas</a></li>
+            <li><a href="#">Service Report</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 content-height"></div>
+        <div class="col-9 content-height">
+          <form action="" method="POST" id="form">
+            <table>
+              <tr>
+                <td>First Name</td>
+                <td>
+                  <input type="text" id="firstName" />
+                  <span id="firstNameError" style="color: red;"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Last Name</td>
+                <td>
+                  <input type="text" id="lastName" />
+                  <span id="lastNameError" style="color: red;"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Email Address</td>
+                <td>
+                  <input type="email" id="emailAddress" />
+                  <span id="emailAddressError" style="color: red;"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Password</td>
+                <td>
+                  <input type="password" id="password" />
+                  <input type="checkbox" id="showHide" /> Show Password
+                  <span id="passwordError" style="color: red;"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Confirm Password</td>
+                <td>
+                  <input type="password" id="confirmPassword" />
+                  <span id="confirmPasswordError" style="color: red;"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Gender info</td>
+                <td>
+                  <input type="radio" name="gender" value="male" /> Male
+                  <input type="radio" name="gender" value="female" /> Female
+                  <span id="genderError" style="color: red;"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Division Name</td>
+                <td>
+                  <select name="" id="division">
+                    <option value=" ">Select Division Name</option>
+                    <option value="dhaka">Dhaka Division</option>
+                    <option value="rajshahi">Rajshahi Division</option>
+                    <option value="rangpur">Rangpur Division</option>
+                    <option value="khulna">Khulna Division</option>
+                    <option value="mymensingh">Mymensingh Division</option>
+                    <option value="sylhet">Sylhet Division</option>
+                    <option value="barisal">Barisal Division</option>
+                    <option value="chittagong">Chittagong Division</option>
+                  </select>
+                  <span id="divisionError" style="color: red;"></span>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input type="submit" name="btn" value="Submit" id="btn" />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-12 footer-height"
+          style="background-color: black; color: honeydew; padding: 10px;"
+        >
+          <center>All right reserved 2018</center>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

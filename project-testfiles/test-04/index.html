@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Element</title>
+</head>
+
+<body>
+    <h4> Input types : color,submit,text,button,checkbox,file,image,radio,date,number,password, email,
+        datetime-local,hidden, month, range,reset,search,tel,time,url,week.</h4>
+
+    <h4>Search youtube :Web Developer Conference</h4>
+
+    <table border="1" align="center">
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" list="name" name="first_name" id="first_name" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td>Last Name :</td>
+            <td><input type="text" name="last_name" id="last_name" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td>Email Address : </td>
+            <td><input type="email" name="email_address" id="email_address" placeholder="Enter your Email Address"></td>
+        </tr>
+        <tr>
+            <td>Password : </td>
+            <td><input type="password" name="password" id="password" placeholder="Enter Password"></td>
+        </tr>
+        <tr>
+            <td>Phone Number : </td>
+            <td><input type="number" min="0" max="9" name="phone_number" id="phone_number"></td>
+        </tr>
+        <tr>
+            <td>Gender : </td>
+            <td><input type="radio" value="male" checked name="gender" id="gender">Male
+                <input type="radio" value="female" name="gender" id="gender"> Female</td>
+        </tr>
+        <tr>
+            <td>Address : </td>
+            <td><textarea name="address" id="address" rows="5" cols="22"></textarea></td>
+        </tr>
+        <tr>
+            <td>Location :</td>
+            <td>
+                <select name="district" id="district">
+                    <option>Select your own District</option>
+                    <optgroup label="Dhaka Division">
+                        <option value="gazipur">Gazipur</option>
+                        <option value="uttora">Uttora</option>
+                        <option value="badda">Badda</option>
+                        <option value="khulna">Khilkhet</option>
+                        <option value="dhanmondi">Dhanmondi</option>
+                        <option value="purandhaka">Puran Dhaka</option>
+                        <option value="motijheel">Motijheel</option>
+                    </optgroup>
+                    <option value="rajshahi">Rajshahi</option>
+                    <option value="rangpur">Rangpur</option>
+                    <option value="sylhet">Sylhet</option>
+                    <option value="khulna">Khulna</option>
+                    <option value="chittagong">Chittagong</option>
+                    <option value="Barishal">Barishal</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Institute :</td>
+            <td><input type="text" Value="Ahsanullah University of Science & Technology" name="Institute" id="Institute" size="36" readonly></td>
+        </tr>
+        <tr>
+            <td>Image :</td>
+            <td> <input type="file" name="user_img" id="user_img" accept="image/*"> </td>
+        </tr>
+        <tr>
+            <td>Date Of Birth :</td>
+            <td><input type="date" name="dob" id="dob"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="agree" id="agree">I agree all the terms and conditions.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Register Now" name="submit id="submit"></td>
+        </tr>
+    </table>
+
+        <datalist id="name">
+            <option value="abdul"/>
+            <option value="sobdul"/>
+            <option value="jabbar"/>
+            <option value="Rahim"/>
+            <option value="Karim"/>
+            <option value="Solim"/>
+        </datalist>
+
+</body>
+
+</html>

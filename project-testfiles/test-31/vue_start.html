@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue JS Start Page</title>
+  </head>
+  <body>
+    <div id="vueapp">
+      <h1>{{ msg }}</h1>
+      <button type="button" @click="test">Click Me</button>
+    </div>
+    <br />
+    <hr />
+    <br />
+
+    <table>
+      <tr>
+        <th>First Name</th>
+        <td><input type="text" v-model="firstName" /></td>
+      </tr>
+      <tr>
+        <th>Last Name</th>
+        <td><input type="text" v-model="lastName" /></td>
+      </tr>
+      <tr>
+        <th>Full Name</th>
+        <td><input type="text" v-model="fullName" /></td>
+      </tr>
+      <tr>
+        <th></th>
+        <td>
+          <input type="button" @click="makeFullName" value="Full Name" />
+        </td>
+      </tr>
+    </table>
+
+    <script src="js/vue.js"></script>
+    <script>
+      var vm = new Vue({
+        el: "#vueapp",
+
+        data: {
+          msg: "Hello World",
+          firstName: " ",
+          lastName: " ",
+          fullName: " ",
+        },
+
+        methods: {
+          test: function () {
+            var x = 10;
+            var y = 20;
+            var res = x + y;
+            alert(res);
+          },
+
+          makeFullName: function () {
+            this.fullName = this.firstName + " " + this.lastName;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

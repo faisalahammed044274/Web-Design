@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Slider Making</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead class="table-dark">
+                <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Email Address</th>
+                  <th>Address</th>
+                  <th>Phone Number</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody class="table-hover">
+                <tr>
+                  <td>Faisal</td>
+                  <td>Ahammed</td>
+                  <td>setufaisal3370@gmail.com</td>
+                  <td>South Badda, Dhaka</td>
+                  <td>01734243939</td>
+                  <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Faisal</td>
+                  <td>Ahammed</td>
+                  <td>setufaisal3370@gmail.com</td>
+                  <td>South Badda, Dhaka</td>
+                  <td>01734243939</td>
+                  <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Faisal</td>
+                  <td>Ahammed</td>
+                  <td class="table-primary">setufaisal3370@gmail.com</td>
+                  <td>South Badda, Dhaka</td>
+                  <td>01734243939</td>
+                  <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Faisal</td>
+                  <td>Ahammed</td>
+                  <td>setufaisal3370@gmail.com</td>
+                  <td>South Badda, Dhaka</td>
+                  <td>01734243939</td>
+                  <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                  </td>
+                </tr>
+                <tr class="table-success">
+                  <td>Faisal</td>
+                  <td>Ahammed</td>
+                  <td>setufaisal3370@gmail.com</td>
+                  <td>South Badda, Dhaka</td>
+                  <td>01734243939</td>
+                  <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            id="mySlider"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="1500"
+          >
+            <ol class="carousel-indicators">
+              <li data-target="#mySlider" data-slide="0" class="active"></li>
+              <li data-target="#mySlider" data-slide="1"></li>
+              <li data-target="#mySlider" data-slide="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" width="100%">
+                <img
+                  src="images/img (1).png"
+                  alt="img1"
+                  class="image-responsive"
+                />
+                <div class="carousel-caption" style="color: red;">
+                  <h3>This is a Carousel image 1</h3>
+                  <p>We are creating a simple slider in bootstrap 4.</p>
+                  <button type="button" class="btn btn-danger">Details</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/img (2).png"
+                  alt="img2"
+                  class="image-responsive"
+                />
+                <div class="carousel-caption" style="color: chartreuse;">
+                  <h3>This is a Carousel image 2</h3>
+                  <p>We are creating a simple slider in bootstrap 4.</p>
+                  <button type="button" class="btn btn-success">Details</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/img (3).png"
+                  alt="img3"
+                  class="image-responsive"
+                />
+                <div class="carousel-caption" style="color: chartreuse;">
+                  <h3>This is a Carousel image 3</h3>
+                  <p>We are creating a simple slider in bootstrap 4.</p>
+                  <button type="button" class="btn btn-outline-success">
+                    Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a href="#mySlider" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#mySlider" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
