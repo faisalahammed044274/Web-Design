@@ -1,2 +1,3 @@
 Web Design Project
-This is my first project in github
+
+HTML, CSS, Bootstrap, JS, JQuery, Vue.js Basics
